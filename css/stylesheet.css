@@ -26,7 +26,7 @@ html {
 
 body {
 	position: relative;
-    background-color: #EBEBDF;
+    background-color: white;
 }
 
 html,
@@ -47,18 +47,50 @@ header {
     top:0px;
 }
 
-
-nav {
-    display: block;
+.logo2 {
+    position: absolute;
+    right: 0px;
+    top:0px;
 }
+
+.logo3 {
+    position: absolute;
+    right: 0px;
+    bottom:0px;
+}
+
+.logo4 {
+    position: absolute;
+    left: 0px;
+    bottom:0px;
+}
+
+img.displayed {
+    display: block;
+    position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 400px;
+   height: 300px;
+   margin-top: -150px; /* Half the height */
+   margin-left: -200px;
+}
+
+area {
+    outline: 0;
+}
+
+.container {
+    padding-top: auto;
+}
+
+
 
 /*HEADER*/
 header ul {
     list-style-type: inherit;
 }
 
-div.whole {
-    position: absolute;
 }
 
 div.shiftright {
@@ -73,10 +105,12 @@ div.shiftright {
 
 /*Link-styles*/
 
+
 a:hover {
     text-decoration: underline;
     color: #FFFFE6;
 }
+
 
 
 i.fa{
