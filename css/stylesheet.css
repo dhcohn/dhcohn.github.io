@@ -419,7 +419,7 @@ aside {
 
     header {
         height: 500px;
-        width: 20%;
+        width: 15%;
         background-color: #201E00;
         border-radius: 0 0 100px 0;
     }
@@ -487,10 +487,10 @@ aside {
     }
 }
 
-@media only screen and (max-width: 320px) and (orientation: portrait) {
+@media only screen and (min-width: 320px) and (orientation: portrait) {
     
     section.whole {
-        margin-left: 35%;
+        margin-left: 30%;
     }
 
     header {
