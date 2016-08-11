@@ -414,7 +414,7 @@ aside {
 @media(min-width: 321px) and (max-width: 768px) {  
     
      section.whole {
-        margin-left: 20%;
+        margin-left: 15%;
     }
 
     header {
@@ -495,7 +495,7 @@ aside {
 
     header {
         height: 500px;
-        width: 20%;
+        width: 15%;
         background-color: #201E00;
         border-radius: 0 0 100px 0;
     }
