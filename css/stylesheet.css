@@ -46,7 +46,7 @@ header {
 /*Nav Bar Styles and Content*/
 
 .logo {
-    position: fixed;
+    position: relative;
     left: 0px;
     top: 0px;
     margin-bottom: 100px;
