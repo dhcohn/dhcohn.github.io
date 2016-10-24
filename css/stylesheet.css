@@ -136,6 +136,8 @@ div.shade1 {
     
 }
 
+
+
 div.shade1:hover {
     opacity: 0;
 
@@ -151,6 +153,20 @@ div.shade2 {
 }
 
 div.shade2:hover {
+    opacity: 0;
+
+}
+
+div.shade3 {
+    margin: auto;
+    background-color: white;
+    height: 250px;
+    width: 400px;
+    opacity: .7;
+    
+}
+
+div.shade3:hover {
     opacity: 0;
 
 }
