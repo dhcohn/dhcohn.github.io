@@ -127,6 +127,20 @@ div.shade:hover {
 
 }
 
+div.shade4 {
+    margin: auto;
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    opacity: .7;
+    
+}
+
+div.shade:hover {
+    opacity: 0;
+
+}
+
 div.shade1 {
     margin: auto;
     background-color: white;
@@ -167,6 +181,20 @@ div.shade3 {
 }
 
 div.shade3:hover {
+    opacity: 0;
+
+}
+
+div.shade5 {
+    margin: auto;
+    background-color: white;
+    height: 250px;
+    width: 400px;
+    opacity: .7;
+    
+}
+
+div.shade5:hover {
     opacity: 0;
 
 }
@@ -500,6 +528,10 @@ aside {
     height: 300px;
     width: 400px;
     background-image: url(../img/lightwaveguy.jpg)
+    }
+
+    .shade4 , .shade5{
+        display: none;
     }
 }
 
