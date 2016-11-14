@@ -136,6 +136,11 @@ div.shade4 {
     
 }
 
+div.shade4:hover {
+    opacity: 0;
+
+}
+
 div.shade:hover {
     opacity: 0;
 
