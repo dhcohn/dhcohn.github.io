@@ -291,21 +291,32 @@ h1 {
     margin-top: -2px;
     font-family: "exo-regular";
     font-size: 18px;
-    font-color: #3D3900;
+    color: #201E00;
     line-height: 185%;
 }
 
 h2 {
     font-family: "exo-thin";
     font-size: 30px;
-    font-color: #3D3900;
+    color: #201E00;
     text-decoration: underline;
+}
+
+a.body {
+    font-family: "exo-regular";
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #201E00,
+    -1px -1px 1px #201E00,
+    1px -1px 1px #201E00,
+     -1px 1px 1px #201E00;
 }
 
 h3 {
     font-family: "courier";
     font-size: 14px;
-    font-color: #3D3900;
+    color: #201E00;
     text-decoration: none;
 }
 
@@ -627,6 +638,7 @@ aside {
     }
     
 }
+
 
 
 
