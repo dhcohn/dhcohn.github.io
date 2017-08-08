@@ -1,22 +1,18 @@
 /*GLOBAL*/
 
 @font-face {
-    font-family: Exo-Light;
-    src: url(../Exo-Light.otf);
+    font-family: Neris-Light;
+    src: url(../Neris-Light.otf);
 }
 
 @font-face {
-    font-family: Exo-Thin;
-    src: url(../Exo-Thin.otf);
+    font-family: Neris-Black;
+    src: url(../Neris-Black.otf);
 }
 
 @font-face {
-    font-family: Exo-Black;
-    src: url(../Exo-Black.otf);
-}
-@font-face {
-    font-family: Exo-Regular;
-    src: url(../Exo-Regular.otf);
+    font-family: Neris-SemiBold;
+    src: url(../Neris-SemiBold.otf);
 }
 
 
@@ -289,21 +285,22 @@ p {
 h1 {
     padding-top: 10px;
     margin-top: -2px;
-    font-family: "exo-regular";
+    font-family: "Neris-Light";
     font-size: 18px;
     color: #201E00;
     line-height: 185%;
 }
 
 h2 {
-    font-family: "exo-thin";
+    font-family: "Neris-Light";
     font-size: 30px;
     color: #201E00;
     text-decoration: underline;
+    text-align: center;
 }
 
 a.body {
-    font-family: "exo-regular";
+    font-family: "Neris-SemiBold";
     font-size: 30px;
     color: white;
     text-decoration: none;
@@ -314,7 +311,7 @@ a.body {
 }
 
 h3 {
-    font-family: "courier";
+    font-family: "Neris-Light";
     font-size: 14px;
     color: #201E00;
     text-decoration: none;
@@ -359,6 +356,9 @@ aside {
  */
 @media (min-width: 769px) {
     
+    .center {
+        margin: auto;
+    }
     
     section.whole {
         margin-left: 20%;
@@ -379,10 +379,10 @@ aside {
     }
     
     a {
-        font-family: "Exo-Light";
+        font-family: "Neris-SemiBold";
         font-size: 14px;
         text-decoration: none;
-        color: #EBEBDF;
+        color: #FFFFCC;
         text-align: left;
     }
     
@@ -435,39 +435,48 @@ aside {
     .textimage {
     height: 300px;
     width: 400px;
-    background-image: url(../img/pencilguy.jpg)
+    background-image: url(../img/pencilguy.jpg);
+    margin: auto;
     }
 
     .textimage:hover {
     height: 300px;
     width: 400px;
-    background-image: url(../img/textguy.jpg)
+    background-image: url(../img/textguy.jpg);
+     margin: auto;
     }
 
     .soundandsightimage {
     height: 300px;
     width: 400px;
-    background-image: url(../img/eyeandearguy.jpg)
+    background-image: url(../img/eyeandearguy.jpg);
+    margin: auto;
     }
 
     .soundandsightimage:hover {
     height: 300px;
     width: 400px;
-    background-image: url(../img/soundandlightwaveguy.jpg)
+    background-image: url(../img/soundandlightwaveguy.jpg);
+    margin: auto;
     }
 
     .light {
     height: 300px;
     width: 400px;
-    background-image: url(../img/eyeguy.jpg)
+    background-image: url(../img/eyeguy.jpg);
+     margin: auto;
     }
 
     .light:hover {
     height: 300px;
     width: 400px;
-    background-image: url(../img/lightwaveguy.jpg)
+    background-image: url(../img/lightwaveguy.jpg);
+     margin: auto;
     }
 
+    h1 {
+        text-align: left;
+    }
 }
 
 
@@ -491,7 +500,7 @@ aside {
     }
     
     a {
-        font-family: "Exo-Light";
+        font-family: "Neris-Light";
         font-size: 12px;
         text-decoration: none;
         color: #FFFFCC;
@@ -530,7 +539,8 @@ aside {
     .textimage {
     height: 300px;
     width: 400px;
-    background-image: url(../img/textguy.jpg)
+    background-image: url(../img/textguy.jpg);
+
     }
 
 
@@ -548,6 +558,10 @@ aside {
 
     .shade4 , .shade5{
         display: none;
+    }
+
+        h1 {
+        text-align: left;
     }
 }
 
@@ -574,7 +588,7 @@ aside {
     }
     
     a {
-        font-family: "Exo-Light";
+        font-family: "Neris-Light";
         font-size: 10px;
         text-decoration: none;
         color: #FFFFCC;
@@ -607,14 +621,14 @@ aside {
     margin-left:-100px;
     height: 300px;
     width: 400px;
-    background-image: url(../img/soundwaveguy.jpg)
+    background-image: url(../img/soundwaveguy.jpg);
     }
 
     .textimage {
     margin-left:-100px;
     height: 300px;
     width: 400px;
-    background-image: url(../img/textguy.jpg)
+    background-image: url(../img/textguy.jpg);
     }
 
 
@@ -622,20 +636,23 @@ aside {
     margin-left:-100px;
     height: 300px;
     width: 400px;
-    background-image: url(../img/soundandlightwaveguy.jpg)
+    background-image: url(../img/soundandlightwaveguy.jpg);
     }
 
     .light {
     margin-left:-100px;
     height: 300px;
     width: 400px;
-    background-image: url(../img/lightwaveguy.jpg)
+    background-image: url(../img/lightwaveguy.jpg);
     }
 
     .animation3 {
         margin-left:-150px;
-        background-image: url(../img/vortex.gif)
+        background-image: url(../img/vortex.gif);
 
+    }
+        h1 {
+        text-align: left;
     }
     
 }
