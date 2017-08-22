@@ -563,6 +563,10 @@ aside {
         h1 {
         text-align: left;
     }
+        div.begin {
+    display: none;
+
+    }
 }
 
 @media only screen and (max-width: 320px) and (orientation: portrait) {
@@ -655,6 +659,10 @@ aside {
         text-align: left;
     }
     
+    div.begin {
+    display: none;
+
+    }
 }
 
 
