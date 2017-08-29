@@ -241,7 +241,9 @@ div.mollywebsite {
     cursor: url('../img/pinchzero.ico'), default;
 }
 
-
+#beginguy {
+position: relative;
+}
 
 /*HEADER*/
 header ul {
@@ -350,7 +352,6 @@ aside {
     margin-left: -30px;
 }
 
-
 /*
  * Add as many @media query break points as you like, trying to keep in mind common device screen widths.
  */
@@ -394,18 +395,6 @@ aside {
     height:150px;
     width:200px;
     background-image: url(../img/double-arrow.jpg);
-  }
-
-  .animation {  
-    height:150px;
-    width:200px; 
-    background-image: url(../img/NGANIMATION.jpg);
-  }
-
-  .animation:hover {  
-    height:150px;
-    width:200px; 
-    background-image: url(../img/NGANIMATIONOnce.gif);
   }
 
   .animation2 {
@@ -477,6 +466,35 @@ aside {
     h1 {
         text-align: left;
     }
+            div.pic {
+    height: 100px;
+}
+
+        div.pic2 {
+    height: 200px;
+}
+
+
+    .sense {
+    height: 100px;
+    width: 200px;
+
+}
+
+.sense2{
+    height: 200px;
+    width: 200px;
+}
+
+    .mt {
+    height: 300px;
+    width: 300px;
+    background-image: url(../img/mtdisplay.jpg);
+background-size: 300px 300px;
+margin: auto;
+    }
+
+
 }
 
 
@@ -518,42 +536,61 @@ aside {
   }
 
   .animation {  
-    height:150px;
-    width:200px; 
-    background-image: url(../img/NGANIMATIONOnce.gif);
+    height:75px;
+    width:100px; 
   }
 
     .animation2 {  
-    height:150px;
-    width:200px; 
+    height:75px;
+    width:100px; 
     background-image: url(../img/animation.gif);
+    background-size: 100px 75px;
+    margin: auto;
     }
 
 
     .soundimage {
-    height: 300px;
-    width: 400px;
-    background-image: url(../img/soundwaveguy.jpg)
+    height: 150px;
+    width: 200px;
+    background-image: url(../img/soundwaveguy.jpg);
+     background-size: 200px 150px;
+     margin: auto;
+
     }
 
     .textimage {
-    height: 300px;
-    width: 400px;
+    height: 150px;
+    width: 200px;
     background-image: url(../img/textguy.jpg);
+background-size: 200px 150px;
+margin: auto;
 
     }
 
 
     .soundandsightimage {
-    height: 300px;
-    width: 400px;
-    background-image: url(../img/soundandlightwaveguy.jpg)
+    height: 150px;
+    width: 200px;
+    background-image: url(../img/soundandlightwaveguy.jpg);
+background-size: 200px 150px;
+margin: auto;
+
     }
 
     .light {
-    height: 300px;
-    width: 400px;
-    background-image: url(../img/lightwaveguy.jpg)
+    height: 150px;
+    width: 200px;
+    background-image: url(../img/lightwaveguy.jpg);
+background-size: 200px 150px;
+margin: auto;
+    }
+
+    .mt {
+    height: 150px;
+    width: 150px;
+    background-image: url(../img/mtdisplay.jpg);
+background-size: 150px 150px;
+margin: auto;
     }
 
     .shade4 , .shade5{
@@ -563,10 +600,35 @@ aside {
         h1 {
         text-align: left;
     }
-        div.begin {
-    display: none;
 
-    }
+    div.pic {
+    height: 50px;
+
+}
+
+        div.pic2 {
+    height: 100px;
+}
+
+.sense {
+    height: 50px;
+    width: 100px;
+}
+
+.sense2 {
+    height: 100px;
+    width: 100px;
+}
+
+#beginguy {
+    height: 75px;
+    width: 100px;  
+}
+
+div.begin {
+    height: 75px;  
+}
+
 }
 
 @media only screen and (max-width: 320px) and (orientation: portrait) {
@@ -606,48 +668,62 @@ aside {
     background-image: url(../img/double-arrow-v.jpg);
   }
 
-  .animation {
-  margin-left:-100px;  
-    height:150px;
-    width:200px; 
-    background-image: url(../img/NGANIMATIONOnce.gif);
+  .animation {  
+    height:75px;
+    width:100px; 
   }
 
-  .animation2 { 
-    margin-left:-100px;
-    height:150px;
-    width:200px; 
+    .animation2 {  
+    height:75px;
+    width:100px; 
     background-image: url(../img/animation.gif);
+    background-size: 100px 75px;
+    margin: auto;
     }
 
 
     .soundimage {
-    margin-left:-100px;
-    height: 300px;
-    width: 400px;
+    height: 150px;
+    width: 200px;
     background-image: url(../img/soundwaveguy.jpg);
+     background-size: 200px 150px;
+     margin: auto;
+
     }
 
     .textimage {
-    margin-left:-100px;
-    height: 300px;
-    width: 400px;
+    height: 150px;
+    width: 200px;
     background-image: url(../img/textguy.jpg);
+background-size: 200px 150px;
+margin: auto;
+
     }
 
 
     .soundandsightimage {
-    margin-left:-100px;
-    height: 300px;
-    width: 400px;
+    height: 150px;
+    width: 200px;
     background-image: url(../img/soundandlightwaveguy.jpg);
+background-size: 200px 150px;
+margin: auto;
+
     }
 
     .light {
-    margin-left:-100px;
-    height: 300px;
-    width: 400px;
+    height: 150px;
+    width: 200px;
     background-image: url(../img/lightwaveguy.jpg);
+background-size: 200px 150px;
+margin: auto;
+    }
+
+    .mt {
+    height: 150px;
+    width: 150px;
+    background-image: url(../img/mtdisplay.jpg);
+background-size: 150px 150px;
+margin: auto;
     }
 
     .animation3 {
@@ -657,12 +733,39 @@ aside {
     }
         h1 {
         text-align: left;
-    }
-    
-    div.begin {
-    display: none;
+
 
     }
+
+        div.pic {
+    height: 50px;
+}
+
+        div.pic2 {
+    height: 100px;
+}
+
+
+    .sense {
+    height: 50px;
+    width: 100px;
+
+}
+
+.sense2 {
+    height: 100px;
+    width: 100px;
+}
+
+div.begin {
+    height: 75px;  
+}
+
+#beginguy {
+    height: 75px;
+    width: 100px;  
+}
+       
 }
 
 
