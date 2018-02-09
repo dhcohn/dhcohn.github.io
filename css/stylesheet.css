@@ -270,6 +270,13 @@ a:hover {
     color: #FFFFE6;
 }
 
+a.active {
+    text-decoration: bold;
+    color: #ff99b6
+    }
+
+
+
 
 
 i.fa{
